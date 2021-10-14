@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\minimal\\code\\minimal.csproj": {}
+  },
+  "projects": {
+    "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\base\\code\\base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\base\\code\\base.csproj",
+        "projectName": "base",
+        "projectPath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\base\\code\\base.csproj",
+        "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
+        "outputPath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\base\\code\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\minimal\\code\\minimal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\minimal\\code\\minimal.csproj",
+        "projectName": "minimal",
+        "projectPath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\minimal\\code\\minimal.csproj",
+        "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
+        "outputPath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\minimal\\code\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\base\\code\\base.csproj": {
+                "projectPath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\base\\code\\base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
