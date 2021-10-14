@@ -18,7 +18,7 @@ partial class Fists : Weapon
 		{
 			OnMeleeHit( leftHand );
 		}
-		else
+		else 
 		{
 			OnMeleeMiss( leftHand );
 		}
@@ -98,11 +98,13 @@ partial class Fists : Weapon
 
 		if ( IsLocalPawn )
 		{
+			// clientside stuff goes in here
 			//_ = new Sandbox.ScreenShake.Perlin( 1.0f, 1.0f, 3.0f );
-			ShootEffects();
-			PlaySound( "slap" );
-			Sandbox.Log.Info( "Pow!" );
 		}
+
+		ShootEffects();
+		PlaySound( "slap" );
+		Sandbox.Log.Info( "Kapow!" );
 
 		ViewModelEntity?.SetAnimBool( "attack", true );
 		ViewModelEntity?.SetAnimFloat( "holdtype_attack", leftHand ? 2 : 1 );

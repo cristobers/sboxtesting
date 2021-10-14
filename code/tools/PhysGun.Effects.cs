@@ -103,6 +103,7 @@ public partial class PhysGun
 				glow.Active = true;
 				glow.RangeMin = 0;
 				glow.RangeMax = 1000;
+				//glow.Color = new Color( 0.1f, 1.0f, 1.0f, 1.0f );
 				glow.Color = new Color( 0.1f, 1.0f, 1.0f, 1.0f );
 
 				foreach ( var child in lastGrabbedEntity.Children.OfType<ModelEntity>() )
