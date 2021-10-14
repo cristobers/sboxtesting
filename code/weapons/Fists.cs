@@ -1,11 +1,11 @@
 ﻿using Sandbox;
 
-[Library( "weapon_fists", Title = "Fists", Spawnable = false )]
+[Library( "weapon_fists", Title = "Kachow!", Spawnable = false )]
 partial class Fists : Weapon
 {
 	public override string ViewModelPath => "models/firstperson/temp_punch/temp_punch.vmdl";
-	public override float PrimaryRate => 2.0f;
-	public override float SecondaryRate => 2.0f;
+	public override float PrimaryRate => 0.25f;
+	public override float SecondaryRate => 0.25f;
 
 	public override bool CanReload()
 	{
@@ -65,7 +65,7 @@ partial class Fists : Weapon
 
 			using ( Prediction.Off() )
 			{
-				var damageInfo = DamageInfo.FromBullet( tr.EndPos, forward * 100, 25 )
+				var damageInfo = DamageInfo.FromBullet( tr.EndPos, forward * 500, 25 )
 					.UsingTraceResult( tr )
 					.WithAttacker( Owner )
 					.WithWeapon( this );
@@ -84,7 +84,7 @@ partial class Fists : Weapon
 
 		if ( IsLocalPawn )
 		{
-			_ = new Sandbox.ScreenShake.Perlin();
+			//_ = new Sandbox.ScreenShake.Perlin();
 		}
 
 		ViewModelEntity?.SetAnimBool( "attack", true );
@@ -98,7 +98,10 @@ partial class Fists : Weapon
 
 		if ( IsLocalPawn )
 		{
-			_ = new Sandbox.ScreenShake.Perlin( 1.0f, 1.0f, 3.0f );
+			//_ = new Sandbox.ScreenShake.Perlin( 1.0f, 1.0f, 3.0f );
+			ShootEffects();
+			PlaySound( "slap" );
+			Sandbox.Log.Info( "Pow!" );
 		}
 
 		ViewModelEntity?.SetAnimBool( "attack", true );
