@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5r1w8qnNUqHhzQtDWmGL9c2d+jfkcaMZgpR5LUWvoeePCXiLCpmAedVOCSzIlDDsA4hGTF+Ek6qiTfEjKT2wJA==",
+  "dgSpecHash": "gDGQlw1Vv0hpckenswZDYaKtxoT1DgelLnvQWN0ux7b6EZSxEAdp14pYera5pRlkrrL7UR/jUVNamFf7JcFc5A==",
   "success": true,
-  "projectFilePath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\minimal\\code\\minimal.csproj",
+  "projectFilePath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\sboxtesting\\code\\sboxtesting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chris\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\Chris\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",

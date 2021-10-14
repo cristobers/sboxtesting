@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\minimal\\code\\minimal.csproj",
-      "projectName": "minimal",
-      "projectPath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\minimal\\code\\minimal.csproj",
+      "projectUniqueName": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\sboxtesting\\code\\sboxtesting.csproj",
+      "projectName": "sboxtesting",
+      "projectPath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\sboxtesting\\code\\sboxtesting.csproj",
       "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-      "outputPath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\minimal\\code\\obj\\",
+      "outputPath": "K:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\sboxtesting\\code\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
