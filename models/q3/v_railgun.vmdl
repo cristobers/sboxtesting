@@ -46,7 +46,7 @@
 					{
 						_class = "RenderMeshFile"
 						filename = "models/q3/railgun.obj"
-						import_translation = [ -7.0, 0.0, -5.0 ]
+						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 180.0, 90.0, 180.0 ]
 						import_scale = 1.0
 						align_origin_x_type = "None"
@@ -68,21 +68,21 @@
 					{
 						_class = "Bone"
 						name = "barrel"
-						origin = [ 35.580677, -10.522256, -9.180923 ]
+						origin = [ 35.956631, -10.67098, -9.733183 ]
 						angles = [ 0.0, 0.0, 0.0 ]
 						do_not_discard = true
 					},
 					{
 						_class = "Bone"
 						name = "hold_R"
-						origin = [ 15.563469, -10.472006, -14.231687 ]
+						origin = [ 14.941037, -10.513766, -14.669048 ]
 						angles = [ 0.0, 0.0, 0.0 ]
 						do_not_discard = true
 					},
 					{
 						_class = "Bone"
 						name = "root"
-						origin = [ 25.090284, -10.057775, -8.216029 ]
+						origin = [ 25.302261, -10.47703, -8.501495 ]
 						angles = [ 0.0, 0.0, 0.0 ]
 						do_not_discard = true
 					},
@@ -98,8 +98,8 @@
 						surface_prop = "default"
 						collision_prop = "default"
 						radius = 5.0
-						point0 = [ 6.28187, -10.619299, -9.525883 ]
-						point1 = [ 35.248611, -10.525089, -9.622316 ]
+						point0 = [ 61.799889, -25.695789, -21.900976 ]
+						point1 = [ 33.391533, -25.277143, -21.931753 ]
 					},
 				]
 			},
