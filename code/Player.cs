@@ -72,7 +72,7 @@ partial class SandboxPlayer : Player
 		Inventory.Add( new GravGun() );
 		Inventory.Add( new Tool() );
 		Inventory.Add( new Pistol() );
-		Inventory.Add( new Flashlight() );
+		//Inventory.Add( new Flashlight() );
 		Inventory.Add( new Fists() );
 
 		base.Respawn();
@@ -198,15 +198,15 @@ partial class SandboxPlayer : Player
 			}
 		}
 
-		if ( Input.Released( InputButton.Jump ) )
-		{
-			if ( timeSinceJumpReleased < 0.3f )
-			{
-				Game.Current?.DoPlayerNoclip( cl );
-			}
-
-			timeSinceJumpReleased = 0;
-		}
+//		if ( Input.Released( InputButton.Jump ) )
+//		{
+//			if ( timeSinceJumpReleased < 0.3f )
+//			{
+//				Game.Current?.DoPlayerNoclip( cl );
+//			}
+//
+//			timeSinceJumpReleased = 0;
+//		}
 
 		if ( Input.Left != 0 || Input.Forward != 0 )
 		{

@@ -8,7 +8,7 @@ public class InventoryBar : Panel
 
 	public InventoryBar()
 	{
-		for ( int i = 0; i < 6; i++ )
+		for ( int i = 0; i < 8; i++ )
 		{
 			var icon = new InventoryIcon( i + 1, this );
 			slots.Add( icon );
@@ -67,6 +67,7 @@ public class InventoryBar : Panel
 		if ( input.Pressed( InputButton.Slot7 ) ) SetActiveSlot( input, inventory, 6 );
 		if ( input.Pressed( InputButton.Slot8 ) ) SetActiveSlot( input, inventory, 7 );
 		if ( input.Pressed( InputButton.Slot9 ) ) SetActiveSlot( input, inventory, 8 );
+
 
 		if ( input.MouseWheel != 0 ) SwitchActiveSlot( input, inventory, -input.MouseWheel );
 	}

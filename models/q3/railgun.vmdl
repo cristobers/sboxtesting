@@ -1,0 +1,111 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "md3_[default][w_railgun05].vmat"
+								to = "materials/q3/railgun4.vmat"
+							},
+							{
+								from = "md3_[default][w_railgun1].vmat"
+								to = "materials/q3/railgun.vmat"
+							},
+							{
+								from = "md3_[default][w_railgun2].vmat"
+								to = "materials/q3/railgun2.vmat"
+							},
+							{
+								from = "md3_[default][w_railgun3].vmat"
+								to = "materials/q3/railgun3.vmat"
+							},
+							{
+								from = "md3_[default][w_railgun4].vmat"
+								to = "materials/q3/railgun3glow.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = "materials/q3/railgun.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/q3/railgun.obj"
+						import_translation = [ 20.0, -15.0, -15.0 ]
+						import_rotation = [ 180.0, 90.0, 180.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = "root"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "barrel"
+						origin = [ 0.542104, 15.29494, 4.031392 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "hold_R"
+						origin = [ 0.301883, -4.635865, -2.021311 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "root"
+						origin = [ 0.0, 4.877458, 3.149337 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 5.0
+						point0 = [ 1.194635, -13.13575, 2.159135 ]
+						point1 = [ 0.491766, 14.291355, 2.161516 ]
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

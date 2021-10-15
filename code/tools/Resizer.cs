@@ -17,8 +17,8 @@ namespace Sandbox.Tools
 				int resizeDir = 0;
 				var reset = false;
 
-				if ( Input.Down( InputButton.Attack1 ) ) resizeDir = 1;
-				else if ( Input.Down( InputButton.Attack2 ) ) resizeDir = -1;
+				if ( Input.Down( InputButton.Attack1 ) ) resizeDir = 4;
+				else if ( Input.Down( InputButton.Attack2 ) ) resizeDir = -4;
 				else if ( Input.Pressed( InputButton.Reload ) ) reset = true;
 				else return;
 

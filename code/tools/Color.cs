@@ -29,6 +29,8 @@ namespace Sandbox.Tools
 				if ( tr.Entity is not ModelEntity modelEnt )
 					return;
 
+				if ( Input.Pressed( InputButton.Reload ) ) { Sandbox.Log.Info( "Hello"); }
+
 				modelEnt.RenderColor = Color.Random;
 
 				CreateHitEffects( tr.EndPos );
