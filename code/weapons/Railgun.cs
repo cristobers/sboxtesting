@@ -26,9 +26,12 @@ partial class Railgun : Weapon
 
 		var tr = Trace.Ray( startPos, startPos + dir * MaxTargetDistance )
 		.UseHitboxes()
-		.Ignore( owner, false )
+		.Ignore( owner )
 		.HitLayer( CollisionLayer.Debris )
 		.Run();
+
+		//Particles rail = Particles.Create( "particles/q3railgunshoot.vpcf", tr.StartPos);
+		//rail.SetEntityAttachment(1, EffectEntity, "barrel", true);
 
 		TimeSincePrimaryAttack = 0;
 		TimeSinceSecondaryAttack = 0;
